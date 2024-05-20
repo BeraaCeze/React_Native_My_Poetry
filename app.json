@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "version": "1.0.0",
+    "icon": "./assets/images/backBG.png",
+    "plugins": [
+      "expo-router"
+      
+    ],
+    "name": "MyPoetry",
+    "slug": "MyPoetry",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "34496a2b-c4fd-4587-a2bc-3541ccdc0188"
+      }
+    },
+    "android": {
+      "package": "com.beraa558.MyPoetry"
+    }
+  }
+}
